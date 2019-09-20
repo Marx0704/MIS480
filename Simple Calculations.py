@@ -22,7 +22,7 @@ average = sums / len(values)
 print("\nOriginal Values","    Values Including Interest")
 
 for orig_number in values:
-    intval = orig_number + orig_number * .2
+    intval = orig_number + orig_number * .15
     print('%10s%25s'%(orig_number,intval))
 
 print("\nTotal:\t", sums)
