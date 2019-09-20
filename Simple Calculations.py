@@ -1,9 +1,6 @@
 # Alan Marx
-# ITS-320 - Basic Programming
 # Colorado State University – Global Campus
-# Professor. Anwar Ahmad
-# Aug 2, 2016
-# ITS320_CTA4_Option1.py
+
 
 values = []
 sums = 0
