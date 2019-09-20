@@ -5,7 +5,7 @@
 values = []
 sums = 0
 
-print("This program will take 5 input values and provide a Total, Average, Maximum,\nMinimum and 20% interest calculation for each value.\n")
+print("This program will take 5 input values and provide a Total, Average, Maximum,\nMinimum and 15% interest calculation for each value.\n")
 
 while len(values) != 5:
     val = input("Enter a whole or decimal: ")
@@ -23,7 +23,7 @@ print("\nOriginal Values","    Values Including Interest")
 
 for orig_number in values:
     intval = orig_number + orig_number * .15
-    print('%10s%25s'%(orig_number,intval))
+    print('%10s%25s'%(orig_number,round(intval, 2)))
 
 print("\nTotal:\t", sums)
 print("Average:", average)
